@@ -131,5 +131,68 @@ h1 {
   box-shadow: 0 4px 12px #00000030;
   margin-bottom: 20px;
 }
+
+/* Grazios sarasu korteles */
+.mano-kortele {
+    background-color: #172d3e;
+    border: 1px solid #28485c;
+    border-radius: 15px;
+    padding: 30px;
+    height: 100%;
+    box-shadow: 0 4px 12px #00000030;
+    transition: 0.3s;
+  }
   
+  .mano-kortele:hover {
+    transform: translateY(-5px);
+    border-color: #28a9e0;
+  }
+  
+  .mano-kortele h2 {
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #28a9e0;
+    padding-bottom: 15px;
+  }
+  
+  /* Technologiju sarasas */
+  .mano-kortele .mano-sarasas {
+    list-style-type: square;
+    padding-left: 25px;
+  }
+  
+  .mano-kortele .mano-sarasas li {
+    padding: 5px 0;
+    color: #d9e7ef;
+  }
+  
+  .mano-kortele .mano-sarasas li::marker {
+    color: #28a9e0;
+  }
+  
+  .mano-kortele .mano-sarasas ul {
+    list-style-type: circle;
+    padding-left: 25px;
+  }
+  
+  /* Numeruotas sarasas */
+  .mano-kortele .mano-etapai {
+    list-style-type: decimal;
+    padding-left: 30px;
+  }
+  
+  .mano-kortele .mano-etapai li {
+    padding: 10px;
+    margin-bottom: 12px;
+    background-color: #203b4e;
+    border-radius: 8px;
+    color: #ffffff;
+  }
+  
+  .mano-kortele .mano-etapai li::marker {
+    color: #28a9e0;
+    font-weight: bold;
+  }
+    
   
