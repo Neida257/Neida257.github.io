@@ -217,5 +217,11 @@ h1 {
     overflow: hidden;
     border-radius: 10px;
   }
-      
+
+/* Orbitron sriftas */
+body,
+body *:not(i) {
+  font-family: 'Orbitron', sans-serif !important;
+}
+
   
