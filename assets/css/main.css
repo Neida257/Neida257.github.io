@@ -2851,5 +2851,31 @@ section,
 # Starter Section Section
 --------------------------------------------------------------*/
 .starter-section {
-  /* Add your styles here */
+
+/* Paslaugu lentele */
+.mano-lentele {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.mano-lentele th,
+.mano-lentele td {
+  border: 1px solid #34495e;
+  padding: 15px;
+  text-align: left;
+}
+
+.mano-lentele th {
+  background-color: #163449;
+  color: white;
+}
+
+.mano-lentele tr:nth-child(even) {
+  background-color: #172b38;
+}
+
+.mano-lentele tr:hover {
+  background-color: #244257;
+}
+
 }
