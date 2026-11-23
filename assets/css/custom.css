@@ -194,5 +194,28 @@ h1 {
     color: #28a9e0;
     font-weight: bold;
   }
-    
+
+/* Vaizdo ir garso irasu korteles */
+.mano-kortele video {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .mano-kortele iframe {
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .mano-kortele audio {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .mano-kortele .ratio {
+    overflow: hidden;
+    border-radius: 10px;
+  }
+      
   
